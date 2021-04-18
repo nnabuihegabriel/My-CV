@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+nav{
+    height: 40px;
+    width: 100vw;
+    display: inline-block;
+    text-align: right;
+    margin-bottom: 20px;
+    
+}
+
+nav ul{
+    padding: 0;
+    margin: 0;
+    
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative; 
+    margin-right: 50px ;
+    padding: 10px;
+    
+}
+
+#home{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    margin: 0 auto;
+    height: 400px;
+    background: black;
+    opacity: 0.9;
+
+}
+.col-1{
+
+    width: 50vw;
+    text-align: center;
+    padding: 20px 8px;
+   
+
+}
+
+.col-1 h1{
+    position: absolute;
+    display: flex;
+    top: 150px;
+    left: 200px;
+    color: #fff;
+   
+}
+.col-1 button{
+    position: absolute;
+    display: flex;
+    top: 250px;
+    left: 320px;
+    font-size: 18px;
+    border: none;
+    background: rgb(10, 17, 116);
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+.col-2{
+    border-radius: 10px;
+    border: 1px solid grey;
+   
+}
+.col-2 img{
+    border-radius: 10px;
+    align-content: center;
+}
+
+section{
+    border: 1px solid grey;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    background: rgb(235, 231, 233);
+    height: 250px;
+}
+.fe, .Mentor, .con {
+    position: relative;
+    text-align: justify;
+    top: -5%;
+    height: 260px;
+    width: 350px;
+    border: 1px solid rgb(243, 237, 237);
+    box-shadow: 3px 2px 5px 1px rgb(194, 193, 193);
+    text-align: center;
+    padding: 5px;
+    margin-left: 60px;
+    background: #fff;
+}
+
+h2{
+    line-height: 50px;
+    color: rgb(32, 30, 167);
+}
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10ch;
+    background: rgb(28, 28, 34);
+    color: #fff;
+}
+
+.head{
+    margin: 20px;   
+    position: relative;
+    justify-content: center;
+    margin-left: 300px;
+}
+
+
+input[type="text"], input[type="email"]{
+    border: none;
+    background: transparent;
+    border: 2px solid rgb(240, 228, 228);
+    height: 40px;
+    font-size: 16px;
+    opacity: 1;
+    color: #fff;
+    width: 50%;
+    margin: 10px;
+    
+}
+
+
+textarea{
+    background: transparent;
+    border: 2px solid rgb(240, 228, 228);
+    font-size: 16px;
+    opacity: 1;
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #fff;
+    padding: 10px;
+
+}
+input[type="submit"]{
+    font-size: 20px;
+    margin-left: 15px;
+    width: 300px;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+
+h1{
+    margin-left: 50px;
+}
